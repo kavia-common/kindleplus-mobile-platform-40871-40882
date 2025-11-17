@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
 
   # Core utilities
   http: ^1.2.2
@@ -43,3 +44,6 @@ flutter:
   assets:
     - .env
     - assets/
+    - assets/paper_grain.svg
+    - assets/vignette.svg
+    - assets/vintage_reference.jpeg
